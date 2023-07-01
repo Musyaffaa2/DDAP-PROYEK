@@ -1,0 +1,245 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-default-red: rgba(109, 3, 41, 1);
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-default-red6d0329: rgba(109, 3, 41, 1);
+  --dl-color-default-red850526: rgba(133, 5, 38, 1);
+  --dl-color-default-reda30923: rgba(163, 9, 35, 1);
+  --dl-color-default-redc30d1c: rgba(195, 13, 28, 1);
+  --dl-color-default-rede41213: rgba(228, 18, 19, 1);
+  --dl-color-default-redee5849: rgba(238, 88, 73, 1);
+  --dl-color-default-redf6866e: rgba(246, 134, 110, 1);
+  --dl-color-default-redfbb89e: rgba(251, 184, 158, 1);
+  --dl-color-default-redfcdfcd: rgba(252, 223, 205, 1);
+  --dl-color-default-blue002c59: rgba(0, 44, 89, 1);
+  --dl-color-default-blue005685: rgba(0, 86, 133, 1);
+  --dl-color-default-blue00739f: rgba(0, 115, 159, 1);
+  --dl-color-default-blue0094ba: rgba(0, 148, 186, 1);
+  --dl-color-default-blue013c6b: rgba(1, 60, 107, 1);
+  --dl-color-default-blue35c0d5: rgba(53, 192, 213, 1);
+  --dl-color-default-blue5de2e9: rgba(93, 226, 233, 1);
+  --dl-color-default-blue94f8f6: rgba(148, 248, 246, 1);
+  --dl-color-default-bluec8fbf6: rgba(200, 251, 246, 1);
+  --dl-color-default-green135f05: rgba(19, 95, 5, 1);
+  --dl-color-default-green20730b: rgba(32, 115, 11, 1);
+  --dl-color-default-green328e11: rgba(50, 142, 17, 1);
+  --dl-color-default-green48aa19: rgba(72, 170, 25, 1);
+  --dl-color-default-green62c723: rgba(98, 199, 35, 1);
+  --dl-color-default-green92db55: rgba(146, 219, 85, 1);
+  --dl-color-default-greenb3ec77: rgba(179, 236, 119, 1);
+  --dl-color-default-greend6f9a7: rgba(214, 249, 167, 1);
+  --dl-color-default-greenebfcd2: rgba(235, 252, 210, 1);
+  --dl-color-default-orange66050c: rgba(102, 5, 12, 1);
+  --dl-color-default-orange7d090a: rgba(125, 9, 10, 1);
+  --dl-color-default-orange9b180e: rgba(155, 24, 14, 1);
+  --dl-color-default-orangeb92d14: rgba(185, 45, 20, 1);
+  --dl-color-default-oranged8461d: rgba(216, 70, 29, 1);
+  --dl-color-default-orangee77d53: rgba(231, 125, 83, 1);
+  --dl-color-default-orangef4a376: rgba(244, 163, 118, 1);
+  --dl-color-default-orangefbc9a3: rgba(251, 201, 163, 1);
+  --dl-color-default-orangefde7d0: rgba(253, 231, 208, 1);
+  --dl-color-default-yellow635c01: rgba(99, 92, 1, 1);
+  --dl-color-default-yellow7a7001: rgba(122, 112, 1, 1);
+  --dl-color-default-yellow958c03: rgba(149, 140, 3, 1);
+  --dl-color-default-yellowb2a904: rgba(178, 169, 4, 1);
+  --dl-color-default-yellowd0c605: rgba(208, 198, 5, 1);
+  --dl-color-default-yellowe3da3d: rgba(227, 218, 61, 1);
+  --dl-color-default-yellowf1eb63: rgba(241, 235, 99, 1);
+  --dl-color-default-yellowfbf69a: rgba(251, 246, 154, 1);
+  --dl-color-default-yellowfcfbcb: rgba(252, 251, 203, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Inter12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Inter14Medium {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Irish16 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Irish Grover;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Title3\(24\) {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Kokoro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Inter20MediumforHeading {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Inter28MediumforHeading {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Inter12Medium {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Inter16Medium {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Inter36forHeading {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Inter14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Inter16 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Title2\(36\) {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Kokoro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Irish20 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Irish Grover;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Title1\(42\) {
+  font-size: 42px;
+  font-style: normal;
+  font-family: Kokoro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Irish12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Irish Grover;
+  font-weight: 400px;
+  font-stretch: normal;
+}

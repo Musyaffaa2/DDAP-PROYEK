@@ -1,0 +1,1049 @@
+.desktop-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop-header {
+  width: 100%;
+  height: 66px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(163, 9, 35, 1);
+}
+.desktop-calculatorbutton {
+  top: 15px;
+  left: 1206px;
+  width: 191px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-text {
+  top: 8px;
+  left: 53px;
+  color: rgba(255, 255, 255, 1);
+  width: 138px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-mathfinance-calculator {
+  top: 0px;
+  left: 0px;
+  width: 39px;
+  height: 38px;
+  position: absolute;
+}
+.desktop-contactusbutton {
+  top: 15px;
+  left: 1036px;
+  width: 156px;
+  height: 37.264957427978516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-text02 {
+  top: 8px;
+  left: 53px;
+  color: rgba(255, 255, 255, 1);
+  width: 103px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-communication-envelope-open {
+  top: 0px;
+  left: 0px;
+  width: 39px;
+  height: 37px;
+  position: absolute;
+}
+.desktop-invoicebutton {
+  top: 16px;
+  left: 844px;
+  width: 178px;
+  height: 37.264957427978516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-text04 {
+  top: 7px;
+  left: 53px;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-commerce-shopping-cart {
+  top: 0px;
+  left: 0px;
+  width: 39px;
+  height: 37px;
+  position: absolute;
+}
+.desktop-homebutton {
+  top: 16px;
+  left: 717px;
+  width: 113px;
+  height: 37.264957427978516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-text06 {
+  top: 7px;
+  left: 53px;
+  color: rgba(255, 255, 255, 1);
+  width: 60px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-games-game-controller {
+  top: 0px;
+  left: 0px;
+  width: 39px;
+  height: 37px;
+  position: absolute;
+}
+.desktop-banner {
+  width: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-size: auto;
+  justify-content: space-between;
+  background-image: url("public/external/xavi-1500w.jpg");
+  background-position: top;
+}
+.desktop-text08 {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.desktop-text09 {
+  color: var(--dl-color-gray-white);
+  max-width: var(--dl-size-size-maxwidth);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.desktop-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.desktop-input {
+  font-size: 0.75rem;
+  border-color: var(--dl-color-gray-500);
+}
+.desktop-button {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.desktop-button:hover {
+  color: var(--dl-color-gray-black);
+  background-color: transparent;
+}
+.desktop-desktop {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: auto;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 115, 159, 1);
+}
+.desktop-otherbutton {
+  top: 78px;
+  left: 612px;
+  width: 206px;
+  height: 69px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(148, 40, 40, 1);
+}
+.desktop-text10 {
+  top: 22px;
+  left: 74px;
+  color: rgba(255, 255, 255, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-mlbutton {
+  top: 78px;
+  left: 92px;
+  width: 206px;
+  height: 69px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(148, 40, 40, 1);
+}
+.desktop-text12 {
+  top: 22px;
+  left: 26px;
+  color: rgba(255, 255, 255, 1);
+  width: 154px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-pubgmobilebutton {
+  top: 78px;
+  left: 352px;
+  width: 206px;
+  height: 69px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(148, 40, 40, 1);
+}
+.desktop-text14 {
+  top: 22px;
+  left: 34px;
+  color: rgba(255, 255, 255, 1);
+  width: 124px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-topupdiamondbutton {
+  top: 186px;
+  left: 92px;
+  width: 173px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-rectangle8 {
+  top: 34px;
+  left: 0px;
+  width: 173px;
+  height: 267px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-rectangle12button {
+  top: 236px;
+  left: 41px;
+  width: 102px;
+  height: 39px;
+  position: absolute;
+  border-radius: 15px;
+}
+.desktop-text16 {
+  top: 168px;
+  left: 47px;
+  color: rgba(255, 255, 255, 1);
+  width: 79px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text18 {
+  top: 242px;
+  left: 58px;
+  color: rgba(255, 255, 255, 1);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-rectangle9 {
+  top: 0px;
+  left: 41px;
+  width: 88px;
+  height: 84px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-games-heart-straight {
+  top: 198px;
+  left: 73px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.desktop-text20 {
+  top: 130px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-jokiclassicbutton {
+  top: 186px;
+  left: 317px;
+  width: 173px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-joki-classic {
+  top: 0px;
+  left: 0px;
+  width: 173px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-rectangle81 {
+  top: 34px;
+  left: 0px;
+  width: 173px;
+  height: 267px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-games-heart-straight1 {
+  top: 198px;
+  left: 73px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.desktop-rectangle12button1 {
+  top: 236px;
+  left: 41px;
+  width: 102px;
+  height: 39px;
+  position: absolute;
+  border-radius: 15px;
+}
+.desktop-rectangle91 {
+  top: 0px;
+  left: 41px;
+  width: 88px;
+  height: 84px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-text22 {
+  top: 130px;
+  left: 45px;
+  color: rgba(255, 255, 255, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text24 {
+  top: 165px;
+  left: 41px;
+  color: rgba(255, 255, 255, 1);
+  width: 91px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text26 {
+  top: 242px;
+  left: 58px;
+  color: rgba(255, 255, 255, 1);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-jokirankbutton {
+  top: 186px;
+  left: 767px;
+  width: 173px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-rectangle82 {
+  top: 34px;
+  left: 0px;
+  width: 173px;
+  height: 267px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-rectangle12button2 {
+  top: 236px;
+  left: 41px;
+  width: 102px;
+  height: 39px;
+  position: absolute;
+  border-radius: 15px;
+}
+.desktop-rectangle92 {
+  top: 0px;
+  left: 41px;
+  width: 88px;
+  height: 84px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-text28 {
+  color: rgba(255, 255, 255, 1);
+  right: 43px;
+  width: 69px;
+  bottom: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text30 {
+  top: 130px;
+  left: 18px;
+  color: rgba(255, 255, 255, 1);
+  width: 134px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text32 {
+  top: 165px;
+  left: 24px;
+  color: rgba(255, 255, 255, 1);
+  width: 126px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-games-heart-straight2 {
+  top: 198px;
+  left: 73px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.desktop-jokimontagebutton {
+  top: 186px;
+  left: 540px;
+  width: 173px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-rectangle83 {
+  top: 34px;
+  left: 0px;
+  width: 173px;
+  height: 267px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-rectangle12button3 {
+  top: 236px;
+  left: 41px;
+  width: 102px;
+  height: 39px;
+  position: absolute;
+  border-radius: 15px;
+}
+.desktop-rectangle93 {
+  top: 0px;
+  left: 41px;
+  width: 88px;
+  height: 84px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-games-heart-straight3 {
+  top: 201px;
+  left: 74px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.desktop-text34 {
+  top: 162px;
+  left: 32px;
+  color: rgba(255, 255, 255, 1);
+  width: 109px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text36 {
+  top: 242px;
+  left: 58px;
+  color: rgba(255, 255, 255, 1);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text38 {
+  top: 130px;
+  left: 32px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-jokigendongbutton {
+  top: 186px;
+  left: 991px;
+  width: 173px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-rectangle84 {
+  top: 34px;
+  left: 0px;
+  width: 173px;
+  height: 267px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-rectangle12button4 {
+  top: 236px;
+  left: 41px;
+  width: 102px;
+  height: 39px;
+  position: absolute;
+  border-radius: 15px;
+}
+.desktop-rectangle94 {
+  top: 0px;
+  left: 41px;
+  width: 88px;
+  height: 84px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-games-heart-straight4 {
+  top: 198px;
+  left: 73px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.desktop-text40 {
+  top: 242px;
+  left: 58px;
+  color: rgba(255, 255, 255, 1);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text42 {
+  top: 117px;
+  left: 17px;
+  color: rgba(255, 255, 255, 1);
+  width: 152px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text44 {
+  top: 158px;
+  left: 21px;
+  color: rgba(255, 255, 255, 1);
+  width: 132px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-giftitembutton {
+  top: 186px;
+  left: 1215px;
+  width: 173px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop-rectangle85 {
+  top: 34px;
+  left: 0px;
+  width: 173px;
+  height: 267px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-rectangle12button5 {
+  top: 236px;
+  left: 41px;
+  width: 102px;
+  height: 39px;
+  position: absolute;
+  border-radius: 15px;
+}
+.desktop-rectangle95 {
+  top: 0px;
+  left: 41px;
+  width: 88px;
+  height: 84px;
+  position: absolute;
+  border-radius: 10px;
+}
+.desktop-text46 {
+  top: 120px;
+  left: 56px;
+  color: rgba(255, 255, 255, 1);
+  width: 72px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text48 {
+  top: 242px;
+  left: 58px;
+  color: rgba(255, 255, 255, 1);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-text50 {
+  top: 162px;
+  left: 29px;
+  color: rgba(255, 255, 255, 1);
+  width: 130px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Irish Grover;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-games-heart-straight5 {
+  top: 201px;
+  left: 78px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.desktop-stats {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-twounits);
+  max-width: auto;
+  background-color: rgba(148, 40, 40, 1);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.desktop-stat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop-text52 {
+  color: rgb(255, 124, 76);
+  font-size: 3rem;
+}
+.desktop-text53 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.desktop-stat1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop-text54 {
+  color: rgb(255, 124, 76);
+  font-size: 3rem;
+}
+.desktop-text55 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.desktop-stat2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop-text56 {
+  color: rgb(255, 124, 76);
+  font-size: 3rem;
+}
+.desktop-text57 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.desktop-stat3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop-text58 {
+  color: #FF7C4C;
+  font-size: 3rem;
+}
+.desktop-text60 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.desktop-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.desktop-image {
+  height: 2rem;
+  object-fit: cover;
+}
+.desktop-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.desktop-link {
+  display: contents;
+}
+.desktop-icon {
+  width: 51px;
+  height: 40px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.desktop-link1 {
+  display: contents;
+}
+.desktop-icon2 {
+  width: 43px;
+  height: 49px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.desktop-link2 {
+  display: contents;
+}
+.desktop-icon4 {
+  width: 47px;
+  height: 41px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .desktop-text09 {
+    width: 100%;
+  }
+  .desktop-text52 {
+    text-align: center;
+  }
+  .desktop-text54 {
+    text-align: center;
+  }
+  .desktop-text56 {
+    text-align: center;
+  }
+  .desktop-text58 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .desktop-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .desktop-text09 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .desktop-stats {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr;
+  }
+  .desktop-text53 {
+    text-align: center;
+  }
+  .desktop-text55 {
+    text-align: center;
+  }
+  .desktop-text57 {
+    text-align: center;
+  }
+  .desktop-text60 {
+    text-align: center;
+  }
+  .desktop-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .desktop-text61 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .desktop-banner {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .desktop-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .desktop-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .desktop-stats {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr;
+  }
+  .desktop-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .desktop-image {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .desktop-text61 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
